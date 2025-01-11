@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>مواقيت الصلاة</h1>
+            <img src="images/logo.jpg" alt="logo">
+        </div>
+        <div class="content">
+            <div class="city">
+                <div class="details">
+                    <div class="my-city">القاهرة</div>
+                    <span class="date-now"></span>
+                </div>
+                <div class="select-city">
+                    <select name="" id="the-cities">
+                    </select>
+                </div>
+            </div>
+            <div class="time">
+                <div class="prayer">
+                    <div class="img"><img src="images/1.png"></div>
+                    <div class="info">
+                        الفجر
+                        <span class="fajr-time">20:22</span>
+                        صباحًا
+                    </div>
+                </div>
+                <div class="prayer">
+                    <div class="img"><img src="images/2.jpg"></div>
+                    <div class="info">
+                        الشروق
+                        <span class="sunrise-time">20:22</span>
+                        صباحًا
+                    </div>
+                </div>
+                <div class="prayer">
+                    <div class="img"><img src="images/3.jpg"></div>
+                    <div class="info">
+                        الظهر
+                        <span class="dhuhr-time">20:22</span>
+                        صباحًا
+                    </div>
+                </div>
+                <div class="prayer">
+                    <div class="img"><img src="images/4.png"></div>
+                    <div class="info">
+                        العصر
+                        <span class="asr-time">20:22</span>
+                        مساءًا
+                    </div>
+                </div>
+                <div class="prayer">
+                    <div class="img"><img src="images/5.png"></div>
+                    <div class="info">
+                        المغرب
+                        <span class="maghrib-time">20:22</span>
+                        مساءًا
+                    </div>
+                </div>
+                <div class="prayer">
+                    <div class="img"><img src="images/6.png"></div>
+                    <div class="info">
+                        العشاء
+                        <span class="isha-time">20:22</span>
+                        مساءًا
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
